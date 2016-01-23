@@ -14,9 +14,9 @@ local function check_member_autorealm(cb_extra, success, result)
         settings = {
           set_name = string.gsub(msg.to.print_name, '_', ' '),
           lock_join = 'no',
-		  antitag = 'no',
-		  antilink = 'no',
-		  lock_name = 'yes',
+          antitag = 'no',
+	  antilink = 'no',
+	  lock_name = 'yes',
           lock_photo = 'no',
           lock_member = 'no',
           flood = 'yes'
@@ -329,7 +329,7 @@ return ' joining Link is already locked'
 else
 data[tostring(target)]['settings']['lock_join'] = 'yes'
 save_data(_config.moderation.data, data)
-return 'Link has been locked'
+return 'joining Link has been locked'
 end
 end
 local function unlock_group_join(msg, data, target)
@@ -1399,38 +1399,6 @@ return {
   "^([Mm]odlist)$",
   "^([Nn]ewlink)$",
   "^([Ll]ink)$",
-  "^([Kk]ickinactive)$,
-  "^([Rr](em) (realm))$,
-  "^([Kk](ill) (realm))$,
-  "^([Dd]emote),
-  "^([Pp]romote),
-  "^([Aa]dd)$",
-  "^([Rr]em)$",
-  "^([Rr]ules)$",
-  "^([Aa]bout)$",
-  "^([Ss]etname) (.*)$",
-  "^([Ss]etphoto)$",
-  "^([Pp]romote) (.*)$",
-  "^([Hh]elp)$",
-  "^([Cc]lean) (.*)$",
-  "^([Dd]emote) (.*)$",
-  "^([Ss]et) ([^%s]+) (.*)$",
-  "^([Ll]ock) (.*)$",
-  "^([Ss]etowner) (%d+)$",
-  "^([Oo]wner)$",
-  "^([Rr]es) (.*)$",
-  "^([Ss]etgpowner) (%d+) (%d+)$",-- (group id) (owner id)
-  "^([Uu]nlock) (.*)$",
-  "^([Ss]etflood) (%d+)$",
-  "^([Ss]ettings)$",
-  "^([Mm]odlist)$",
-  "^([Nn]ewlink)$",
-  "^([Ll]ink)$",
-  "^([Kk]ickinactive)$,
-  "^([Rr](em) (realm))$,
-  "^([Kk](ill) (realm))$,
-  "^([Dd]emote),
-  "^([Pp]romote),
   "%[(photo)%]",
   "^!!tgservice (.+)$",
   },
