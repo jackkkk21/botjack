@@ -243,18 +243,11 @@ function create_config( )
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Creed bot 2.3
+    about_text = [[jack bot 2.3
     
      Hello my Good friends ߘట搰
      
-    ‼️ this bot is made by : @creed_is_dead
-   〰〰〰〰〰〰〰〰
-   ߚ頏ur admins are : 
-   ߔࠀsorblack_creed
-   ߔࠀamircc_creed
-   ߔࠀaria_creed
-   ߔࠀalireza_mah_creed 
-   〰〰〰〰〰〰〰〰
+    ‼️ this bot is made by :our team
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
    !feedback (your ideas and messages)
@@ -537,9 +530,9 @@ To tags the every one and sends your message at bottom
 
 〰〰〰〰〰〰〰〰〰
 More plugins  soon ...
-⚠️ We are Creeds ⚠️
+⚠️ We are BOTs ⚠️
 
-our channel : @creedantispam_channel
+our channel : @dep_luv
 کانال ما
 
 You Can user both "!" & "/" for them
