@@ -519,28 +519,5 @@ then start the bot again
 Create a realm using !createrealm command
 
 
-# Support and development
 
-Do not contact **us** In private for support.
-Join our bot development group by sending `/join 76950056` to [@Creed_antispam](https://telegram.me/creedantispam_channel)
 
-_If you are using /join service for first time you have to send it 11 times ( Bot is spam reported )_
-
-# Special thanks to
-
-For Creating The [CreedboT](http://github.com/CreedsTeam/Creed)
-
-[@Creed_is_dead](https://telegram.me/Creed_is_dead)
-
-For Managing [@Creed_antispam](https://telegram.me/Creed_antispam) on Telegram
-
-[@Aria_Creed](https://telegram.me/Aria_Creed)
-
-[@Amircc_Creed](https://telegram.me/Amircc_Creed)
-
-[@ArashInfernal](https://telegram.me/ArashInfernal)
-
-For graphic designs
-
-[@Jacki_Pendelton](https://telegram.me/Jacki_Pendelton)
-Our Telegram cahnnels > Persian : [@Creedantispam_Channel](https://telegram.me/creedantispam_Channel)
